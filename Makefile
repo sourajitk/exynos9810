@@ -691,6 +691,7 @@ KBUILD_CFLAGS	+= $(call cc-disable-warning, header-guard)
 KBUILD_CFLAGS	+= $(call cc-disable-warning, array-parameter)
 KBUILD_CFLAGS	+= $(call cc-disable-warning, enum-int-mismatch)
 KBUILD_CFLAGS	+= $(call cc-disable-warning, switch-unreachable)
+KBUILD_CFLAGS	+= $(call cc-disable-warning, sizeof-pointer-memaccess)
 
 ifdef CONFIG_LD_DEAD_CODE_DATA_ELIMINATION
 KBUILD_CFLAGS	+= $(call cc-option,-ffunction-sections,)
