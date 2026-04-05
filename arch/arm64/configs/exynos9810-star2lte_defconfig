@@ -554,8 +554,8 @@ CONFIG_ARM64_SW_TTBR0_PAN=y
 #
 # JOP Attack Prevention
 #
-CONFIG_RKP_CFP_JOPP=y
-CONFIG_RKP_CFP_JOPP_MAGIC=0x00be7bad
+# CONFIG_RKP_CFP_JOPP is not set
+# CONFIG_RKP_CFP_JOPP_MAGIC is not set
 
 #
 # ARMv8.1 architectural features
