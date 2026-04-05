@@ -680,6 +680,7 @@ KBUILD_CFLAGS	+= $(call cc-disable-warning, stringop-overread)
 KBUILD_CFLAGS	+= $(call cc-disable-warning, array-compare)
 KBUILD_CFLAGS	+= $(call cc-disable-warning, format)
 KBUILD_CFLAGS	+= $(call cc-disable-warning, address-of-packed-member)
+KBUILD_CFLAGS	+= $(call cc-disable-warning, packed-not-aligned)
 
 ifdef CONFIG_LD_DEAD_CODE_DATA_ELIMINATION
 KBUILD_CFLAGS	+= $(call cc-option,-ffunction-sections,)
